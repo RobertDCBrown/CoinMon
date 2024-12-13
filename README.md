@@ -5,7 +5,7 @@ A Raspberry Pi Pico W project that monitors coin dispenser status using voltage 
 ## Hardware Requirements
 
 - Raspberry Pi Pico W
-- Coin Dispenser with voltage output (0-3.3V)
+- Coin Dispenser with voltage output (0-3.3V) (Resistors can be used to drop voltage to a safe ammount for the Pico)
 - Jumper wires
 
 ## Wiring
