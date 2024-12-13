@@ -19,7 +19,7 @@ A Raspberry Pi Pico W project that monitors coin dispenser status using voltage 
 ## Features
 
 - Real-time voltage monitoring using ADC
-- Email notifications via SMTP2GO
+- Email notifications via SMTP server
 - SMS notifications via Twilio
 - Web interface for status monitoring
 - Onboard LED status indicator
@@ -38,8 +38,8 @@ PASSWORD = 'your_wifi_password'
 DEVICE = 'Coin Machine 1'
 LOCATION = '12345 Main Street'
 
-# SMTP Settings (SMTP2GO)
-SMTP_SERVER = 'mail.smtp2go.com'
+# SMTP Settings
+SMTP_SERVER = 'SMTPserver'
 SMTP_PORT = 465
 SMTP_USERNAME = 'your_email@domain.com'
 SMTP_PASSWORD = 'your_smtp_password'
