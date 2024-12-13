@@ -19,7 +19,7 @@ A Raspberry Pi Pico W project that monitors coin dispenser status using voltage 
 ## Features
 
 - Real-time voltage monitoring using ADC
-- Email notifications via SMTP server
+- Email notifications via SMTP server, cloned from https://github.com/shawwwn/uMail
 - SMS notifications via Twilio
 - Web interface for status monitoring
 - Onboard LED status indicator
@@ -51,6 +51,12 @@ TWILIO_AUTH_TOKEN = 'your_auth_token'
 TWILIO_FROM_NUMBER = '+1234567890'  # Your Twilio number
 TWILIO_TO_NUMBER = '+1234567890'    # Recipient number
 ```
+
+## Instalation
+1. Install MicroPython firmware on your Pico by following this guide - https://micropython.org/download/RPI_PICO_W/
+2. Copy main.py, secrets.py, and umail.py to the Pico using Thonny or IDE of your choice.
+3. Reboot Pico and main.py will run automatically.
+
 
 ## Operation
 
